@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    font-family: '楷体', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+.content {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1em 0 0.5em;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+}

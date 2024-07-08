@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>增加班次</title>
+    <link rel="stylesheet" href="css/addSchedule.css">
+    <script>
+        function showSuccessMessage() {
+            alert("添加成功");
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>增加班次</h1>
+        </div>
+    </header>
+    <div class="main-content">
+        <form action="addSchedule" method="post" onsubmit="showSuccessMessage()">
+            <label for="班号">班号:</label>
+            <input type="number" id="班号" name="班号" required><br>
+
+            <label for="起始站">起始站:</label>
+            <input type="text" id="起始站" name="起始站" required><br>
+
+            <label for="终点站">终点站:</label>
+            <input type="text" id="终点站" name="终点站" required><br>
+
+            <label for="发车时间">发车时间:</label>
+            <input type="time" id="发车时间" name="发车时间" required><br>
+
+            <label for="行车时间">行车时间:</label>
+            <input type="time" id="行车时间" name="行车时间" required><br>
+
+            <label for="额定载客量">额定载客量:</label>
+            <input type="number" id="额定载客量" name="额定载客量" required><br>
+
+            <label for="已售票数">已售票数:</label>
+            <input type="number" id="已售票数" name="已售票数" required><br>
+
+            <label for="票价">票价:</label>
+            <input type="number" step="0.01" id="票价" name="票价" required><br>
+
+            <input type="submit" value="添加班次">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* manageSchedules.css */
+body {
+    font-family: '楷体', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 60px;
+    background-color: #007bff;
+    border-radius: 8px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}

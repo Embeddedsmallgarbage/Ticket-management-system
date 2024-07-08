@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: '楷体', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
